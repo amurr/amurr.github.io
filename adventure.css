@@ -1,0 +1,55 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: Times New Roman, "Montserrat";
+}
+
+hr {
+		border-width: 1px;
+		width: 800px;
+		border-color: blue;
+	}
+
+header.startup {
+	background-image: url("adventure.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+header.startup hr {
+	margin-top: 10px;
+	margin-bottom: 50px;
+
+}
+
+	header.startup h1 {
+		font-size: 2rem;
+	}
+
+	.btn {
+		font-weight: 800px;
+		text-transform: uppercase;
+		border-radius: 300px;
+		font-family: Times New Roman,"Montserrat";
+
+	}
+
+	.btn-xl {
+		padding: 1rem 2rem;
+	}
+
+	.btn-primary {
+		background-color: #F05F44;
+		border-color: #F05F44;
+	}
+
+	.btn-primary:hover {
+		background-color: blue;
+		border-color: black;
+		cursor: pointer;
+		max-width: 300px;
+	}
